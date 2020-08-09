@@ -1,0 +1,20 @@
+:root {
+  --color-red: #E94368;
+  --color-blue: #286fda;
+  --color-light-gray: #F1F1F1;
+  --color-dark-gray: #A8A8A8;
+  --color-black: #333333;
+  --color-white: #ffffff;
+  --main-color: var(--color-red);
+
+  /* Fonts */
+  --font-ruby: 'Rubik', sans-serif;
+  --font-product: 'Product Sans';
+  --font-robotoSlab: 'Roboto Slab', serif;
+
+  /* PADDINGS */
+  --external-padding: 24px;
+
+  /* MEDIDAS */
+  --general-space: 24px;
+}

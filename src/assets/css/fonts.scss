@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Product Sans';
+  src: local('Product Sans Regular'),
+        local('ProductSans'),
+        local('Product-Sans-Regular'),
+        local('Product-Sans'),
+        url('../fonts/ProductSans/ProductSansRegular.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: local('Product Sans Bold'),
+        local('ProductSans'),
+        local('Product-Sans-Bold'),
+        local('Product-Sans'),
+        url('../fonts/ProductSans/ProductSansBold.ttf') format('ttf');
+  font-style: bold;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: local('Product Sans Bold Italic'),
+        local('ProductSans'),
+        local('Product-Sans-Bold-Italic'),
+        local('Product-Sans'),
+        url('../fonts/ProductSans/ProductSansBoldItalic.ttf') format('ttf');
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: local('Product Sans Italic'),
+        local('ProductSans'),
+        local('Product-Sans-Italic'),
+        local('Product-Sans'),
+        url('../fonts/ProductSans/ProductSansItalic.ttf') format('ttf');
+  font-style: italic;
+  font-weight: 400;
+}

@@ -1,0 +1,45 @@
+.Service {
+  max-width: 310px;
+  width: 100%;
+
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  padding: var(--general-space);
+  box-sizing: border-box;
+  transition: all .4s;
+
+  display: grid;
+  grid-template-rows: 50px 100px minmax(100px 1fr);
+  grid-row-gap: 30px;
+
+  margin-bottom: 50px;
+
+  &__title {
+    color: var(--color-black);
+    font-family: var(--font-ruby);
+    font-weight: bolder;
+    text-align: center;
+    font-size: var(--general-space);
+
+    margin: auto;
+  }
+
+  &__img {
+    height: 100px;
+    margin: auto;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &__text {
+    font-family: var(--font-ruby);
+    color: var(--color-black);
+    text-align: center;
+    margin: auto;
+    line-height: 110%;
+  }
+}

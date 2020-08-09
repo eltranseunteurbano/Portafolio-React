@@ -1,0 +1,36 @@
+.footer {
+  padding: calc(var(--general-space) ) 0;
+  box-sizing: border-box;
+
+  h1 {
+    font-family: var(--font-product);
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--color-black);
+    text-align: center;
+    margin-bottom: calc(var(--general-space) / 3);
+    letter-spacing: 1.5px;
+  }
+
+  &__city {
+    font-family: var(--font-product);
+    font-weight: normal;
+    color: var(--color-dark-gray);
+    text-align: center;
+    text-decoration: none;
+    transition: all .4s;
+  }
+
+  &__city:hover {
+    color: var(--color-blue);
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--general-space) 0;
+  }
+}
+
