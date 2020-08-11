@@ -5,9 +5,9 @@ import Presentation from '../../components/Presentation'
 import Services from '../../components/Services'
 import LastProjects from '../../components/LastsProjects'
 
-const Home = () => {
+const Portafolio = () => {
   return (
-    <main className='Home appear'>
+    <main className='Portafolio'>
       <Presentation />
       <Services />
       <LastProjects />
@@ -15,5 +15,4 @@ const Home = () => {
   )
 }
 
-export default Home;
-
+export default Portafolio;

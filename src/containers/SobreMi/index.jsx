@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 import './index.scss'
 
 import Presentation from '../../components/Presentation'
 import Services from '../../components/Services'
 import LastProjects from '../../components/LastsProjects'
 
-const Home = () => {
+const SobreMi = () => {
   return (
-    <main className='Home appear'>
+    <main className='SobreMi'>
       <Presentation />
       <Services />
       <LastProjects />
@@ -15,5 +15,5 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default SobreMi;
 

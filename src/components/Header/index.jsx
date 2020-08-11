@@ -2,7 +2,7 @@ import React from 'react';
 import './index.scss';
 import './menuResponsive.scss';
 
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, Link, useHistory } from 'react-router-dom';
 import Modal from 'react-modal';
 
 import * as routes from '../../assets/js/routes';
@@ -15,6 +15,8 @@ const Header = () => {
 
   const [scrollY, setScrollY] = React.useState(0);
   const [showResponsive, setShowResponsive] = React.useState(false);
+
+  let history = useHistory();
   
   //Ancho | Width
   React.useEffect( () => {
@@ -47,8 +49,9 @@ const Header = () => {
 
   const onNavigationResponsive = ( route ) => {
     setShowResponsive(false)
+    history.push(route)
   }
-  
+
   return(
     <header className='header' style={scrollY >= 90 ? {boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)'} : {}}>
       <section className='header__wp'>

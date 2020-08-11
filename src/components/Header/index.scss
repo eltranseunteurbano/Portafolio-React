@@ -1,5 +1,5 @@
 .header {
-  width: 100%; 
+  width: 100%;
   background-color: var(--color-white);
 
   display: flex;
@@ -45,6 +45,7 @@
       cursor: pointer;
       transition: all .4s;
       color: var(--color-black);
+      font-family: var(--font-ruby);
 
       &-selected {
         color: var(--main-color) !important;

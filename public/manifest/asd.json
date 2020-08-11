@@ -1,0 +1,37 @@
+{
+    "name": "nelkir - La nueva manera de pedir",
+    "short_name": "nelkir",
+    "description": "nelkir es una plataforma que le permite a los restaurantes ofrecer sus productos de manera digital y recibir los pedidos de sus clientes.",
+    "theme_color": "#E94A47",
+    "background_color": "#FDFDFD",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "/img/manifest/logo96.png",
+        "type": "image/png",
+        "sizez": "96x96"
+      }, {
+        "src": "/img/manifest/logo128.png",
+        "type": "image/png",
+        "sizez": "128x128"
+      }, {
+        "src": "/img/manifest/logo192.png",
+        "type": "image/png",
+        "sizez": "192x192"
+      }, {
+        "src": "/img/manifest/logo256.png",
+        "type": "image/png",
+        "sizez": "256x256"
+      }, {
+        "src": "/img/manifest/logo384.png",
+        "type": "image/png",
+        "sizez": "384x384"
+      }, {
+        "src": "/img/manifest/logo512.png",
+        "type": "image/png",
+        "sizez": "512x512"
+      }
+    ]
+  }
+  

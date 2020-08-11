@@ -50,7 +50,7 @@ const LastProjects = () => {
       </article>
 
       <article className='LastProjects__footer'>
-        <Link to={Routes.PORTAFOLIO} className='button'>VER TODO</Link>
+        <Link to={Routes.PORTAFOLIO} className='button'>VER TODOS</Link>
       </article>
 
     </section>
