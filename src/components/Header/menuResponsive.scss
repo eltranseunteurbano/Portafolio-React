@@ -1,0 +1,106 @@
+.MenuResponsive {
+  position: fixed;
+  z-index: 2;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  &__body {
+    background-color: var(--color-white);
+    width: 100%;
+    height: 100%;
+    border: none;
+
+    padding: var(--external-padding);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__nav {
+    margin: var(--external-padding);
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+      display: block;
+      border: none;
+      background: none;
+      color: var(--color-black);
+      font-weight: bolder;
+      font-size: 30px;
+      cursor: pointer;
+      transition: all .4s;
+      margin-bottom: calc( var(--general-space) / 2 );
+    }
+
+    &__item:hover {
+      color: var(--main-color);
+      transform: scale(1.2);
+    }
+  }
+
+  &__nav:hover &__nav__item:not(:hover) {
+    color: var(--color-black);
+    opacity: .3;
+
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &__iconos {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: var(--general-space);
+    }
+
+    &__iconos:hover .icono:not(:hover) {
+      opacity: .2;
+      background-color: var(--color-black);
+      color: var(--color-black);
+    }
+
+    &__title {
+      font-family: var(--font-product);
+      font-size: 18px;
+      font-weight: bolder;
+      text-align: center;
+      color: var(--color-black);
+      letter-spacing: 1.5px;
+    }
+
+    &__city {
+      font-family: var(--font-product);
+      font-weight: normal;
+      color: var(--main-color);
+      text-align: center;
+      text-decoration: none;
+      transition: all .4s;
+      text-transform: uppercase;
+      margin-bottom: calc(var(--general-space) / 3);
+    }
+
+    &__city:hover {
+      color: var(--color-blue);
+      font-weight: bolder;
+      letter-spacing: 1px;
+      transform: scale(1.1);
+    }
+  }
+}

@@ -1,6 +1,12 @@
 .footer {
   padding: calc(var(--general-space) ) 0;
   box-sizing: border-box;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   h1 {
     font-family: var(--font-product);
@@ -31,6 +37,15 @@
     justify-content: space-between;
     align-items: center;
     margin: var(--general-space) 0;
+    width: 100%;
+    max-width: 200px;
+    transition: all .4s;
+  }
+
+  &__icons:hover .icono:not(:hover) {
+    opacity: .2;
+    background-color: var(--color-black);
+    color: var(--color-black);
   }
 }
 

@@ -5,7 +5,7 @@ import Header from '../../components/Header'
 import Presentation from '../../components/Presentation'
 import Services from '../../components/Services'
 import LastProjects from '../../components/LastsProjects'
-import Footer from '../../components/Services/Footer'
+import Footer from '../../components/Footer'
 
 const Home = () => {
   return (

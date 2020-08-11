@@ -1,25 +1,50 @@
 .icono {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  background-color: var(--color-blue);
+  opacity: .4;
+  transition: all .4s;
+
+  padding: 6px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
   svg {
     width: 100%;
     height: 100%;
     transition: all .4s;
     path {
-      opacity: .4;
-      fill: var(--color-black);
+      fill: var(--color-white);
       transition: all .4s;
     }
   }
+}
 
-  svg:hover {
-    path {
-      opacity: 1;
-      fill: var(--color-blue);
-    }
+.icono:hover {
+  opacity: 1;
+  background-color: var(--main-color);
+  transform: scale(1.2);
+
+  .icono__alt {
+    color: var(--main-color);
+    display: block;
   }
+}
+
+.icono__alt {
+  position: absolute;
+  bottom: -20px;
+  font-family: var(--font-ruby);
+  color: var(--color-blue);
+  display: none;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.scss';
 
-const Logo = () =>{
+const Logo = ({active}) =>{
   return(
-    <div className='logo'>
+    <div className={active ? 'logo logo-active': 'logo'}>
       <figure className='logo__img'>
         <img src={process.env.PUBLIC_URL + '/img/iconos/logo.svg'} alt='Logo Jaime Burbano' />
       </figure>

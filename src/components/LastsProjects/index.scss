@@ -25,7 +25,7 @@
     margin-bottom: var(--general-space);
   }
 
-  .LastProjects__body:hover .PreviewProject:not(:hover) {
+  .alice-carousel__stage:hover .PreviewProject:not(:hover) {
     filter: grayscale(100%);
     opacity: .5;
   }

@@ -9,8 +9,6 @@
   cursor: pointer;
   transition: all.4s;
 
-  margin-bottom: var(--general-space);
-
   &__img {
     user-select: none;
     pointer-events: none;
@@ -34,4 +32,3 @@
     letter-spacing: 0.6px;
   }
 }
-
