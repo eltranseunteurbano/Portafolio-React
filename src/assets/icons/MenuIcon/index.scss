@@ -1,0 +1,30 @@
+.iconoHamburguesa {
+  cursor: pointer;
+  &_line {
+    transition: all .4s;
+    stroke: var(--color-black);
+  }
+}
+
+.iconoHamburguesa:hover {
+  .iconoHamburguesa_line {
+    stroke: var(--main-color);
+  }
+}
+
+.iconoHamburguesaActive {
+  .iconoHamburguesa_line1{
+    stroke: var(--main-color) !important;
+    d: path("M 4 4 L 22 22");
+  }
+
+  .iconoHamburguesa_line2{
+    stroke: var(--main-color) !important;
+    d: path("M 4 22 L 22 4");
+  }
+
+  .iconoHamburguesa_line3{
+    opacity: 0;
+    stroke: var(--main-color) !important;
+  }
+}

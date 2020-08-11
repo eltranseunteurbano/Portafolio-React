@@ -9,7 +9,7 @@ import Footer from '../../components/Services/Footer'
 
 const Home = () => {
   return (
-    <main className='Home'>
+    <main className='Home appear'>
       <Header />
       <Presentation />
       <Services />

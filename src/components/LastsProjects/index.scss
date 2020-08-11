@@ -1,5 +1,50 @@
-.LastProjects{
+.LastProjects {
   width: 100%;
+  max-width: 1152px;
   padding: var(--external-padding);
+  box-sizing: border-box;
   margin-bottom: calc( var(--external-padding) * 2 );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__header {
+    margin-bottom: calc(var(--general-space) * 2);
+  }
+
+  &__body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: var(--general-space);
+  }
+
+  .LastProjects__body:hover .PreviewProject:not(:hover) {
+    filter: grayscale(100%);
+    opacity: .5;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 645px) {
+  .LastProjects {
+    &__footer {
+      &__index {
+        display: none;
+      }
+    }
+  }
 }
