@@ -1,15 +1,19 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react'
+import Loading from '../../components/Loading';
 
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+
+const Header = lazy(() => import('../../components/Header')); 
+const Footer = lazy(() => import('../../components/Footer')); 
 
 const Layout = ({ children }) => {
   return (
-    <div className='App'>
-      <Header />
-      {children}
-      <Footer />
-    </div>
+    <Suspense fallback={<Loading />}>
+      <div className='App'>
+        <Header />
+        {children}
+        <Footer />
+      </div>
+    </Suspense>
   );
 };
 

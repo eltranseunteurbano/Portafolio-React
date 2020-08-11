@@ -40,7 +40,7 @@ const Redes = ({name, round = false}) => {
 
 
   return(
-    <a href={link} target='_blank' rel='noopener noreferrer' className={ round ? 'icono icono-round': 'icono'}>
+    <a href={link} aria-label={'Sigeme en: ' + name} target='_blank' rel='noopener noreferrer' className={ round ? 'icono icono-round': 'icono'}>
       {
         name === 'Correo' ?
         <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.scss';
 
-
 import {Link} from 'react-router-dom';
 
 const PreviewProject = ({title = 'NOMBRE DEL PROYECTO', category = 'Categoria', img = '/img/Projects/portatil.jpeg', imgwebp = '/img/Projects/portatil.webp'}) => {

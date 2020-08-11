@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react'
 import './index.scss';
+import Loading from '../Loading';
 
-import Service from './Service';
+const Service = lazy(() => import('./Service'));
 
 const data = [
   {
@@ -27,29 +28,31 @@ const data = [
 
 const Services = () => {
   return(
-    <section className='Services' style={{backgroundImage: 'url("' + process.env.PUBLIC_URL + '/img/background/service.svg")'}}>
-      <article className='Services__wp'>
-        <div className='Services__header'>
-          <h2 className='subtitle'>Services</h2>
-          <h1 className='title'>¿CÓMO PUEDO AYUDARTE?</h1>
-        </div>
+    <Suspense fallback={<Loading />}>
+      <section className='Services' style={{backgroundImage: 'url("' + process.env.PUBLIC_URL + '/img/background/service.svg")'}}>
+        <article className='Services__wp'>
+          <div className='Services__header'>
+            <h2 className='subtitle'>Services</h2>
+            <h1 className='title'>¿CÓMO PUEDO AYUDARTE?</h1>
+          </div>
 
-        <div className='Services__services'>
-          {data.map( (item) => {
-            return(
-              <Service
-                key={item.id}
-                title={item.title}
-                image={item.image}
-                imagewebp={item.imagewebp}
-                description={item.description}
-              />
-            )
-          })
-          }
-        </div>
-      </article>
-    </section>
+          <div className='Services__services'>
+            {data.map( (item) => {
+              return(
+                <Service
+                  key={item.id}
+                  title={item.title}
+                  image={item.image}
+                  imagewebp={item.imagewebp}
+                  description={item.description}
+                />
+              )
+            })
+            }
+          </div>
+        </article>
+      </section>
+    </Suspense>
   )
 }
 

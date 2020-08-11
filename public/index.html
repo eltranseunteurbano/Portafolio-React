@@ -23,11 +23,34 @@
 
   <link rel="manifest" href="%PUBLIC_URL%/manifest/manifest.json" />
   <title>El Transeunte Urbano | Jaime Burbano</title>
+
+  <style>
+    .Loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+    }
+
+    .Loading h1 {
+      font-weight: bolder;
+      color: #E94368;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 32px;
+    }
+  </style>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+
+  <div id="root" className='Loading'>
+    <h1>Cargando...</h1>
+  </div>
+
 </body>
 
 </html>

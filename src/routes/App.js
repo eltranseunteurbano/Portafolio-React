@@ -2,9 +2,6 @@ import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import * as routes from '../assets/js/routes'
 
-//css
-import '../assets/css/generals.scss'
-
 //Utils
 import ScrollToTop from '../utils/scrollToTop';
 
@@ -16,11 +13,12 @@ import Contacto from '../containers/Contacto'
 import Error404 from '../containers/Error404'
 import Layout from '../containers/Layout'
 
+
 function App() {
 
   return (
     <BrowserRouter>
-    <ScrollToTop />
+      <ScrollToTop />
       <Layout>
         <Switch>
           <Route exact path={routes.INDEX} component={Home} />

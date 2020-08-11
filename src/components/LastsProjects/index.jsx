@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import './index.scss';
 
 import { Link } from 'react-router-dom';
@@ -7,6 +7,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 
 import * as Routes from '../../assets/js/routes';
 import PreviewProject from '../PreviewProject';
+import Loading from '../Loading';
 
 const data = [
   {name: 'Get2wear', cateogry: 'Maqueta', id: 0},
@@ -18,7 +19,8 @@ const data = [
 const LastProjects = () => {
 
   return(
-    <section className='LastProjects'>
+    <Suspense fallback={<Loading />}>
+      <section className='LastProjects'>
       <div className='LastProjects__header'>
         <h2 className='subtitle'>Portafolio</h2>
         <h1 className='title'>ÚLTIMOS PROYECTOS</h1>
@@ -54,6 +56,7 @@ const LastProjects = () => {
       </article>
 
     </section>
+    </Suspense>
   )
 }
 

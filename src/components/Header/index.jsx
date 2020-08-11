@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react';
 import './index.scss';
 import './menuResponsive.scss';
 
@@ -6,10 +6,11 @@ import { NavLink, Link, useHistory } from 'react-router-dom';
 import Modal from 'react-modal';
 
 import * as routes from '../../assets/js/routes';
+import Loading from '../Loading';
 
-import Logo from '../../assets/icons/Logo/';
-import MenuIcon from '../../assets/icons/MenuIcon/index';
-import Redes from '../../assets/icons/Redes';
+const Logo = lazy(() => import('../../assets/icons/Logo/'));
+const MenuIcon = lazy(() => import('../../assets/icons/MenuIcon/index'));
+const Redes = lazy(() => import('../../assets/icons/Redes'));
 
 const Header = () => {
 
@@ -53,7 +54,8 @@ const Header = () => {
   }
 
   return(
-    <header className='header' style={scrollY >= 90 ? {boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)'} : {}}>
+    <Suspense fallback={<Loading />}>
+      <header className='header' style={scrollY >= 90 ? {boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)'} : {}}>
       <section className='header__wp'>
         <Link to={routes.INDEX} className='header__logo'><Logo active = {showResponsive} /></Link>
 
@@ -98,6 +100,7 @@ const Header = () => {
         </Modal>
       </section>
     </header>
+    </Suspense>
   )
 }
 
