@@ -4,6 +4,8 @@ import Loading from '../../components/Loading';
 
 const Presentation = lazy(() => import ('../../components/Presentation'));
 const Services = lazy(() => import ('../../components/Services'));
+const Works = lazy(() => import('../../components/Works'));
+const Studies = lazy(() => import('../../components/Studies'));
 
 const SobreMi = () => {
   return (
@@ -11,6 +13,8 @@ const SobreMi = () => {
       <main className='SobreMi'>
         <Presentation />
         <Services />
+        <Works />
+        <Studies />
       </main>
     </Suspense>
   )

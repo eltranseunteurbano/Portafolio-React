@@ -8,7 +8,7 @@ const Presentation = () => {
       <picture loading='lazy' className='Presentation__img'>
           <source  type='image/webp' srcSet={process.env.PUBLIC_URL + '/img/fotos/JaimeBurbano.webp'}/>
           <source ype='image/jpeg' srcSet={process.env.PUBLIC_URL + '/img/fotos/JaimeBurbano.jpg'}/>
-          <img width={350} height={322} src={process.env.PUBLIC_URL + '/img/fotos/JaimeBurbano.jpg'} loading='lazy' alt='Foto Jaime Burbano' />
+          <img width='100%' src={process.env.PUBLIC_URL + '/img/fotos/JaimeBurbano.jpg'} loading='lazy' alt='Foto Jaime Burbano' />
         </picture>
 
       <article className='Presentation__wp'>

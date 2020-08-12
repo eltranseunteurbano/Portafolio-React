@@ -39,6 +39,7 @@
       cursor: pointer;
       transition: all .4s;
       margin-bottom: calc( var(--general-space) / 2 );
+      font-family: var(--font-product);
     }
 
     &__item:hover {
@@ -50,7 +51,6 @@
   &__nav:hover &__nav__item:not(:hover) {
     color: var(--color-black);
     opacity: .3;
-
   }
 
   &__footer {

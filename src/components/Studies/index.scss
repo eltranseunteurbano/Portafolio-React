@@ -1,0 +1,31 @@
+.Studies {
+  padding: var(--external-padding);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1152px;
+  margin-bottom: calc( var(--external-padding) * 2 );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__header {
+    margin-bottom: calc(var(--general-space) * 2);
+  }
+
+  &__body {
+    display: grid;
+    margin-bottom: calc(var(--general-space) * 2);
+  }
+}
+
+@media only screen and (min-width:730px) {
+  .Studies {
+    &__body {
+      display: grid;
+      grid-template: 1fr / 1fr 1fr;
+      grid-gap: var(--general-space);
+    }
+  }
+}

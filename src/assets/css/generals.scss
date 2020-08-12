@@ -27,11 +27,15 @@
   align-items: center;
 
   border: solid 2px var(--color-blue);
+  background-color: var(--color-white);
 
   font-family: var(--font-robotoSlab);
+  font-size: 16px;
   color: var(--color-blue);
+  text-decoration: none;
 
   transition: all .4s;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -75,7 +79,7 @@
 
 .appear {
   animation-name: appearAnimation;
-  animation-duration: 1s;
+  animation-duration: .5s;
   animation-timing-function: ease-in-out;
 }
 

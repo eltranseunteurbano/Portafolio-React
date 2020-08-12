@@ -2,7 +2,7 @@ import React, {lazy, Suspense} from 'react';
 import './index.scss';
 import './menuResponsive.scss';
 
-import { NavLink, Link, useHistory } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import Modal from 'react-modal';
 
 import * as routes from '../../assets/js/routes';
@@ -17,7 +17,6 @@ const Header = () => {
   const [scrollY, setScrollY] = React.useState(0);
   const [showResponsive, setShowResponsive] = React.useState(false);
 
-  let history = useHistory();
   
   //Ancho | Width
   React.useEffect( () => {
@@ -50,7 +49,6 @@ const Header = () => {
 
   const onNavigationResponsive = ( route ) => {
     setShowResponsive(false)
-    history.push(route)
   }
 
   return(
@@ -79,9 +77,9 @@ const Header = () => {
         >
           <div />
           <nav className='MenuResponsive__nav'>
-            <button className='MenuResponsive__nav__item' onClick={() => onNavigationResponsive(routes.SOBREMI)}>Sobre mí</button>
-            <button className='MenuResponsive__nav__item' onClick={() => onNavigationResponsive(routes.PORTAFOLIO)}>Portafolio</button>
-            <button className='MenuResponsive__nav__item' onClick={() => onNavigationResponsive(routes.CONTACTO)}>Contacto</button>
+            <NavLink to={routes.SOBREMI} className='MenuResponsive__nav__item' activeClassName='header__nav__item-selected' onClick={() => onNavigationResponsive(routes.SOBREMI)}>Sobre mí</NavLink>
+            <NavLink to={routes.PORTAFOLIO} className='MenuResponsive__nav__item' activeClassName='header__nav__item-selected' onClick={() => onNavigationResponsive(routes.PORTAFOLIO)}>Portafolio</NavLink>
+            <NavLink to={routes.CONTACTO} className='MenuResponsive__nav__item' activeClassName='header__nav__item-selected' onClick={() => onNavigationResponsive(routes.CONTACTO)}>Contacto</NavLink>
           </nav>
 
           <footer className='MenuResponsive__footer'>
