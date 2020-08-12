@@ -5,6 +5,7 @@ import Loading from './components/Loading';
 
 //css
 import './assets/css/generals.scss'
+import "react-alice-carousel/lib/scss/alice-carousel.scss";
 
 const App = lazy(() => import('./routes/App'));
 

@@ -42,13 +42,8 @@
 @media only screen and (min-width:730px) {
   .CardItem {
     padding: var(--external-padding);
+    margin-left: calc(var(--external-padding) * 2);
     box-sizing: border-box;
     border-bottom: solid 2px var(--color-light-gray);
-    border-right: solid 2px var(--color-light-gray);
-    
-  }
-
-  .CardItem:nth-child(2n) {
-    border-right: none;
   }
 }

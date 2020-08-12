@@ -14,10 +14,21 @@ const Studies = () => {
         </article>
 
         <article className='Studies__body'>
-          <CardItem />
-          <CardItem />
-          <CardItem />
-          <CardItem />
+          <div className='Studies__body__item'>
+            <CardItem />
+          </div>
+
+          <div className='Studies__body__item'>
+            <CardItem />
+          </div>
+
+          <div className='Studies__body__item'>
+            <CardItem />
+          </div>
+
+          <div className='Studies__body__item'>
+            <CardItem />
+          </div>
         </article>
 
         <button className='button'>Ver Más</button>

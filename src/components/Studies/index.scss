@@ -17,6 +17,11 @@
   &__body {
     display: grid;
     margin-bottom: calc(var(--general-space) * 2);
+    &__item:last-child {
+      .CardItem {
+        border-bottom: none;
+      }
+    }
   }
 }
 
@@ -25,7 +30,24 @@
     &__body {
       display: grid;
       grid-template: 1fr / 1fr 1fr;
-      grid-gap: var(--general-space);
+      grid-row-gap: var(--general-space);
+
+      &__item {
+        box-sizing: border-box;
+        border-right: solid 2px var(--color-light-gray);
+        padding-right: calc(var(--external-padding) * 2);
+        box-sizing: border-box;
+      }
+
+      &__item:nth-child(2n) {
+        border-right: none;
+      }
+
+      &__item:last-child, &__item:nth-last-child(2){
+        .CardItem {
+          border-bottom: none;
+        }
+      }
     }
   }
 }
