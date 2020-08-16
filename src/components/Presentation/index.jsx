@@ -2,6 +2,7 @@ import React from 'react';
 import './index.scss';
 
 const Presentation = () => {
+
   return (
     <section className='Presentation'>
 

@@ -15,11 +15,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && set \"AUTOPREFIXER_GRID=autoplace\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && firebase deploy",
-    "deploy:prod:hosting": "set \"GENERATE_SOURCEMAP=false\" && npm run build"
+    "deploy": "set \"GENERATE_SOURCEMAP=false\" && set \"AUTOPREFIXER_GRID=autoplace\" && npm run build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,7 +27,9 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "maintained node versions",
+      "since 2010"
     ],
     "development": [
       "last 1 chrome version",

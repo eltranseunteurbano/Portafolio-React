@@ -10,7 +10,7 @@ import Loading from '../Loading';
 
 const Logo = lazy(() => import('../../assets/icons/Logo/'));
 const MenuIcon = lazy(() => import('../../assets/icons/MenuIcon/index'));
-const Redes = lazy(() => import('../../assets/icons/Redes'));
+const Iconos = lazy(() => import('../../components/Iconos'));
 
 const Header = () => {
 
@@ -83,15 +83,7 @@ const Header = () => {
           </nav>
 
           <footer className='MenuResponsive__footer'>
-            <div className='MenuResponsive__footer__iconos'>
-              <Redes round={true} name='Correo'/>
-              <Redes round={true} name='LinkedIn'/>
-              <Redes round={true} name='Behance'/>
-              <Redes round={true} name='Github'/>
-              <Redes round={true} name='Fotografia'/>
-              <Redes round={true} name='Dribbble'/>
-              <Redes round={true} name='Instagram'/>
-            </div>
+            <Iconos />
             <a className='MenuResponsive__footer__city' href='https://goo.gl/maps/UXQi7J6odSW5h7JB9' target='_blank' rel='noopener noreferrer' >Cali - Colombia</a>
             <h1 className='MenuResponsive__footer__title'>JAIME BURBANO</h1>
           </footer>

@@ -1,0 +1,58 @@
+.ProjectPreview {
+  width: 100%;
+  max-width: 600px;
+
+  display: grid;
+  grid-template-areas: 'title''category''image''description' 'btn';
+  grid-gap: calc(var(--general-space) / 2) var(--general-space);
+
+  margin: auto;
+
+  &__img {
+    user-select: none;
+    pointer-events: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: image;
+
+    margin-bottom: 12px;
+  }
+
+  &__title {
+    font-family: var(--font-robotoSlab);
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--color-blue);
+    text-align: center;
+    grid-area: title;
+  }
+
+  &__category {
+    font-family: var(--font-ruby);
+    color: var(--color-dark-gray);
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    grid-area: category;
+  }
+
+  &__description {
+    max-width: 350px;
+    color: var(--color-black);
+    font-size: 16px;
+    line-height: 120%;
+    width: 100%;
+    text-align: center;
+    grid-area: description;
+    margin: auto;
+  }
+
+  &__btn {
+    grid-area: btn;
+    margin: auto;
+    margin-top: var(--general-space);
+  }
+}
+

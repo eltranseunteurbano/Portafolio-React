@@ -25,27 +25,11 @@
     text-align: center;
     text-decoration: none;
     transition: all .4s;
+    margin-bottom: var(--general-space);
   }
 
   &__city:hover {
     color: var(--color-blue);
-  }
-
-  &__icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: var(--general-space) 0;
-    width: 100%;
-    max-width: 200px;
-    transition: all .4s;
-  }
-
-  &__icons:hover .icono:not(:hover) {
-    opacity: .2;
-    background-color: var(--color-black);
-    color: var(--color-black);
   }
 }
 
