@@ -2,9 +2,15 @@ import React, { lazy, Suspense} from 'react';
 import './index.scss';
 import Loading from '../Loading';
 
+import StudiesContext from '../../utils/context/StudiesContext';
+
 const CardItem = lazy(() => import('../CardItem'));
 
 const Studies = () => {
+
+  const data = React.useContext(StudiesContext);
+
+
   return(
     <Suspense fallback={<Loading />}>
       <section className='Studies'>
@@ -14,21 +20,16 @@ const Studies = () => {
         </article>
 
         <article className='Studies__body'>
-          <div className='Studies__body__item'>
-            <CardItem />
-          </div>
-
-          <div className='Studies__body__item'>
-            <CardItem />
-          </div>
-
-          <div className='Studies__body__item'>
-            <CardItem />
-          </div>
-
-          <div className='Studies__body__item'>
-            <CardItem />
-          </div>
+          {
+            data && data.reverse().map( (item) => {
+              return(
+                <CardItem
+                  title={item.rol}
+                  key={item.id}
+                />
+              )
+            })
+          }
         </article>
 
         <button className='button'>Ver Más</button>

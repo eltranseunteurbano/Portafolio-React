@@ -1,0 +1,352 @@
+{
+  "jobs": [
+    {
+      "id": 0,
+      "company": "Innlab - Universidad Icesi",
+      "rol": "Diseñador de Experiencias de Usuario",
+      "startDate": "2017-03",
+      "endDate": "2017-03",
+      "location": "Cali, Colombia",
+      "description": "Monitor de diseño de experiencias de usuario, encargado de apoyar a los estudiantes de la Maestría en Gestión de la Innovación de la Universidad Icesi en sus productos o servicios digitales orientándolos y agregándoles valor a sus ideas de negocio, también desarrollando el diseño de las interfaces de sus productos o servicios digitales.",
+      "url": "https://www.icesi.edu.co/es/76-innlab"
+    }, {
+      "id": 1,
+      "company": "Innlab - Universidad Icesi",
+      "rol": "Diseñador de Experiencias de Usuario",
+      "startDate": "2017-11",
+      "endDate": "2017-11",
+      "location": "Cali, Colombia",
+      "description": "Monitor de diseño de experiencias de usuario, encargado de apoyar a los estudiantes de la Maestría en Gestión de la Innovación de la Universidad Icesi en sus productos o servicios digitales orientándolos y agregándoles valor a sus ideas de negocio, también desarrollando el diseño de las interfaces de sus productos o servicios digitales.",
+      "url": "https://www.icesi.edu.co/es/76-innlab"
+    }, {
+      "id": 2,
+      "company": "Innlab - Universidad Icesi",
+      "rol": "Diseñador de Experiencias de Usuario",
+      "startDate": "2018-03",
+      "endDate": "2018-03",
+      "location": "Cali, Colombia",
+      "description": "Monitor de diseño de experiencias de usuario, encargado de apoyar a los estudiantes de la Maestría en Gestión de la Innovación de la Universidad Icesi en sus productos o servicios digitales orientándolos y agregándoles valor a sus ideas de negocio, también desarrollando el diseño de las interfaces de sus productos o servicios digitales.",
+      "url": "https://www.icesi.edu.co/es/76-innlab"
+    }, {
+      "id": 3,
+      "company": "Facultad de Ingeniería - Universidad Icesi",
+      "rol": "Monitor de Programación",
+      "startDate": "2018-01",
+      "endDate": "2018-06",
+      "location": "Cali, Colombia",
+      "description": "Encargado de apoyar a los estudiantes de Diseño de Medios Interactivos y Diseño Industrial en los diferentes desarrollos que deben realizar en sus materias.",
+      "url": "https://www.icesi.edu.co/facultad-ingenieria/"
+    }, {
+      "id": 4,
+      "company": "E Learning - Universidad Icesi",
+      "rol": "Diseñador Gráfico",
+      "startDate": "2017-06",
+      "endDate": "2018-07",
+      "location": "Cali, Colombia",
+      "description": "Encargado de realizar piezas informativas de los servicios de la oficina. Diseño y Animación de piezas informativas de los servicios de la oficina. Diseño y Animación de cursos virtuales MOC.",
+      "url": "https://www.icesi.edu.co/servicios/syri-elearning/"
+    }, {
+      "id": 5,
+      "company": "Innlab - Universidad Icesi",
+      "rol": "Diseñador de Experiencias de Usuario",
+      "startDate": "2018-11",
+      "endDate": "2018-11",
+      "location": "Cali, Colombia",
+      "description": "Monitor de diseño de experiencias de usuario, encargado de apoyar a los estudiantes de la Maestría en Gestión de la Innovación de la Universidad Icesi en sus productos o servicios digitales orientándolos y agregándoles valor a sus ideas de negocio, también desarrollando el diseño de las interfaces de sus productos o servicios digitales.",
+      "url": "https://www.icesi.edu.co/es/76-innlab"
+    }, {
+      "id": 6,
+      "company": "Angular Diseño más Interacción",
+      "rol": "Diseñador de Interfaces de Usuario",
+      "startDate": "2018-06",
+      "endDate": "2019-07",
+      "location": "Cali, Colombia",
+      "description": "Encargado del diseño de experiencias de usuario e interfaces de usuario para diferentes cuentas internas de la empresa como lo son Rolling, Choice, Get2Wear, SenciYa, entre otros.",
+      "url": "http://weareangular.com/"
+    }, {
+      "id": 7,
+      "company": "Angular Diseño más Interacción",
+      "rol": "Desarrollador Web",
+      "startDate": "2019-04",
+      "endDate": "2019-07",
+      "location": "Cali, Colombia",
+      "description": "Encargado del desarrollo front end de uno de los proyectos de la agencia llamado Get 2 wear, donde tuve la oportunidad de realizar un refactor y agregar nuevas funcionalidades, como la del proceso de subida y alquiler de vestidos y también del desarrollo de algunos sitios web internos.",
+      "url": "http://weareangular.com/"
+    }, {
+      "id": 8,
+      "company": "MoniHub SAS",
+      "rol": "Diseñador de Interfaces de Usuario",
+      "startDate": "2019-07",
+      "endDate": "2019-09",
+      "location": "Cali, Colombia",
+      "description": "Encargado del diseño de la interfaz gráfica del sitio web y aplicación móvil con sus respectivo proceso iterativo de la nueva línea de negocios enfocada en el préstamo de dinero de manera fácil y rápida.",
+      "url": "https://www.monihub.co/"
+    }, {
+      "id": 9,
+      "company": "Facultad de Ingeniería - Universidad Icesi",
+      "rol": "Monitor de Programación",
+      "startDate": "2019-06",
+      "endDate": "2019-11",
+      "location": "Cali, Colombia",
+      "description": "Encargado de apoyar a los estudiantes de Diseño de Medios Interactivos y Diseño Industrial en los diferentes desarrollos que deben realizar en sus materias.",
+      "url": "https://www.icesi.edu.co/facultad-ingenieria/"
+    }, {
+      "id": 10,
+      "company": "Eduteka - Universidad Icesi",
+      "rol": "Diseñador Gráfico",
+      "startDate": "2019-12",
+      "endDate": "2020-01",
+      "location": "Cali, Colombia",
+      "description": "Encargado de realizar las piezas gráficas de las redes sociales del Centro Eduteka teniendo como base un plan de mercadeo tradicional y digital con el fin de obtener nuevos matriculados en la Maestría de Educación mediadas por las Tic en modalidad 100% virtual.",
+      "url": "http://eduteka.icesi.edu.co/"
+    }, {
+      "id": 11,
+      "company": "Conectir",
+      "rol": "Desarrollador Web",
+      "startDate": "2020-05",
+      "endDate": "2020-08",
+      "location": "Cali, Colombia",
+      "description": "Encargado de convertir el diseño la versión desktop de la aplicación web www.conectir.com en código HTML, Css y Javascript en la librería React Js",
+      "url": "https://conectir.com/"
+    }, {
+      "id": 12,
+      "company": "Vakros",
+      "rol": "Cofundador - Desarrollador Web",
+      "startDate": "2020-05",
+      "endDate": "2020-08",
+      "location": "Cali, Colombia",
+      "description": "Vakros es una plataforma web donde le permitimos a los colombianos realizar inversiones desde 200.000 pesos en inversiones colectivas en ganadería recibiendo hasta un 20% de utilidades después de 18 meses.",
+      "url": "https://vakros.com/#/"
+    }, {
+      "id": 13,
+      "company": "Team EQ",
+      "rol": "Diseñador y Desarrollador Web",
+      "startDate": "2020-02",
+      "endDate": "now",
+      "location": "España",
+      "description": "Encargado del desarrollo de maquetas de productos internos de la compañía. Encargado del diseño y desarrollo de nuevos features de la compañía",
+      "url": "https://teameq.net/"
+    }, {
+      "id": 14,
+      "company": "Nelkir",
+      "rol": "Cofundador - Desarrollador Web",
+      "startDate": "2020-07",
+      "endDate": "now",
+      "location": "Cali, Colombia",
+      "description": "Encargado de convertir el diseño de la aplicación web en código de React Js e implementar todas las funcionalidades necesarias consumiendo API's y manejando los estados con Redux.",
+      "url": "http://nelkir.com/"
+    }
+  ],
+  "study": [{
+    "id": 0,
+    "institution": "Centro Educativo de Técnicas Laborales",
+    "carreer": "Diseño gráfico con enfásis en páginas web",
+    "startDate": 0,
+    "endDate": 0,
+    "url": "https://www.cetel.edu.co/"
+  }, {
+    "id": 1,
+    "institution": "Universidad Icesi",
+    "carreer": "Diseño de Medios Interactivos",
+    "startDate": 0,
+    "endDate": 0,
+    "url": "https://www.icesi.edu.co/"
+  }],
+  "volunteering": [{
+    "id": 0,
+    "rol": "Desarrollador Arduino",
+    "company": "Semillero de Investigación 418",
+    "category": "Ciencia y Tecnología",
+    "description": "Integrante del semillero de investigación de la Universidad Icesi 418. Durante mi estancia en el grupo, desarrollamos el proyecto El Mundo de Duino, el cual consistía en la escritura, diseño y programación de un libro físico para niños en donde se les explicaba el mundo de la programación electrónica a través de la historia de un extraterrestre llamado Duino que llegaba a la tierra y empezaba a interacturar con diferentes componentes como luces led de piso, baterías, resistencias, entre otros.",
+    "startDate": 0,
+    "endDate": 0,
+    "url": "https://www.icesi.edu.co/blogs/semillero418/about/"
+  }, {
+    "id": 1,
+    "rol": "Cofundador - Jefe de Logística",
+    "company": "Güinev - Grupo Estudiantil de Diseño de Medios Interactivos",
+    "category": "Educación",
+    "description": "Fui uno de los fundadores del grupo estudiantil Güinev del programa de Diseño de Medios Interactivos de la Universidad Icesi estando encargado de toda la parte logística del grupo.",
+    "startDate": 0,
+    "endDate": 0,
+    "url": "https://www.instagram.com/guinevdmi"
+  }, {
+    "id": 2,
+    "rol": "Fundador",
+    "company": "Grupo de Diseño Competitivo HackINN",
+    "category": "Ciencia y Tecnología",
+    "description": "Fundador e integrante del grupo de Diseño Competitivo de la Universidad Icesi, conformado por estudiantes de todos los semestres de Diseño de Medios Interactivos, Diseño Industrial, Ingeniera en Sistemas e Ingeniería Telematica; con el fin de participar en diferentes competencias como Hackatones.",
+    "startDate": 0,
+    "endDate": 0,
+    "url": ""
+  }, {
+    "id": 3,
+    "rol": "Diseñador de Interfaces de Usuario",
+    "company": "gentem",
+    "category": "Servicios Sociales",
+    "description": "Soy parte del equipo de diseño de interfaces de la ONG donde buscamos ayudar a las personas más afectadas por el corona virus en latinoamericana.",
+    "startDate": 0,
+    "endDate": 0,
+    "url": "https://gentem.org/"
+  }, {
+    "id": 4,
+    "rol": "Mentor de Comunidad",
+    "company": "Platzi",
+    "category": "Educación",
+    "description": "Apoyo a estudiantes en tecnologías frontend con sus procesos de aprendizaje.",
+    "startDate": 0,
+    "endDate": "now",
+    "url": "https://platzi.com/"
+  }],
+  "certifications": [{
+    "id": 0,
+    "name": "Programación Básica",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1050-programacion-basica/diploma/detalle/"
+  }, {
+    "id": 1,
+    "name": "React Js 2017",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1199-react-2017/diploma/detalle/"
+  }, {
+    "id": 2,
+    "name": "Desarrollo Web Online",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1350-course/diploma/detalle/"
+  }, {
+    "id": 3,
+    "name": "Carrera de Arquitectura Frontend",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/carrera/42-arquitecto/diploma/detalle/"
+  }, {
+    "id": 4,
+    "name": "React Práctico",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1651-react-ejs/diploma/detalle/"
+  }, {
+    "id": 5,
+    "name": "Introducción al Lenguaje Audiovisual 2017",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1260-lenguaje-audiovisual/diploma/detalle/"
+  }, {
+    "id": 6,
+    "name": "Introducción a la Edición con Premiere",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1261-premiere/diploma/detalle/"
+  }, {
+    "id": 7,
+    "name": "Tailwind CSS",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1822-tailwind-css/diploma/detalle/"
+  }, {
+    "id": 8,
+    "name": "Python 2018",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1104-python/diploma/detalle/"
+  }, {
+    "id": 9,
+    "name": "CSS Grid Layout",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1229-css-grid-layout/diploma/detalle/"
+  }, {
+    "id": 10,
+    "name": "Single Page Aplication con Javascript Vanilla",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1787-spa-javascript/diploma/detalle/"
+  }, {
+    "id": 11,
+    "name": "Oratoria y Hablar en Público",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1285-hablar-en-publico/diploma/detalle/"
+  }, {
+    "id": 12,
+    "name": "Frontend Developer",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1640-frontend-developer/diploma/detalle/"
+  }, {
+    "id": 13,
+    "name": "Creación de CRUD con Python",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1378-python-practico/diploma/detalle/"
+  }, {
+    "id": 14,
+    "name": "Svelte 2020",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1851-svelte/diploma/detalle/"
+  }, {
+    "id": 15,
+    "name": "Sapper 2020",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1895-sapper/diploma/detalle/"
+  }, {
+    "id": 16,
+    "name": "Básico de Vue Js",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1752-vuejs/diploma/detalle/"
+  }, {
+    "id": 17,
+    "name": "Fundamentos de Javascript",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1339-fundamentos-javascript/diploma/detalle/"
+  }, {
+    "id": 18,
+    "name": "Prework: Buenas Prácticas y Entorno de Desarollo",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1650-prework/diploma/detalle/"
+  }, {
+    "id": 19,
+    "name": "ECMA Script 6+",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1815-ecmascript-6/diploma/detalle/"
+  }, {
+    "id": 20,
+    "name": "Asincronismo con Javascript",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1789-asincronismo-js/diploma/detalle/"
+  }, {
+    "id": 21,
+    "name": "Básico de Javascript",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1814-basico-javascript/diploma/detalle/"
+  }, {
+    "id": 22,
+    "name": "React Router y Redux",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1652-react-router-redux/diploma/detalle/"
+  }, {
+    "id": 23,
+    "name": "Profesional de Javascript",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1642-javascript-profesional/diploma/detalle/"
+  }, {
+    "id": 24,
+    "name": "Básico de Python",
+    "date": 0,
+    "company": "Platzi",
+    "url": "https://platzi.com/@jaimeburbano/curso/1937-pythonbasico/diploma/detalle/"
+  }]
+}

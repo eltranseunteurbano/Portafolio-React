@@ -8,7 +8,6 @@
     font-weight: bolder;
     font-size: 24px;
     color: var(--color-black);
-    text-transform: capitalize;
     margin-bottom: calc(var(--general-space) / 3);
   }
 
@@ -16,9 +15,10 @@
     font-family: var(--font-robotoSlab);
     font-weight: bolder;
     font-size: 16px;
-    color: var(--color-blue);
+    color: var(--main-color);
     text-transform: capitalize;
     margin-bottom: calc(var(--general-space) / 2);
+    display: block;
   }
 
   &__date {
@@ -26,8 +26,16 @@
     font-weight: light;
     color: var(--color-dark-gray);
     text-transform: lowercase;
-    font-size: 14px;
-    display: block;
+    font-size: 13px;
+    margin-bottom: calc(var(--general-space) / 2);
+  }
+
+  &__city {
+    font-family: var(--font-ruby);
+    font-weight: light;
+    color: var(--color-blue);
+    text-transform: capitalize;
+    font-size: 16px;
     margin-bottom: calc(var(--general-space) / 2);
   }
 

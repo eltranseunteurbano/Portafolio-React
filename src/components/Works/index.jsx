@@ -2,38 +2,46 @@ import React, { lazy, Suspense} from 'react';
 import './index.scss';
 import Loading from '../Loading';
 
+import JobsContext from '../../utils/context/JobsContext';
+
 const CardItem = lazy(() => import('../CardItem'));
 
 const Works = () => {
+
+  const data = React.useContext(JobsContext);
+
   return(
     <Suspense fallback={<Loading />}>
       <section className='Works'>
         <article className='Works__header'>
-          <h2 className='subtitle'>Educación</h2>
-          <h1 className='title'>¿DÓNDE Y QUÉ HE APRENDIDO?</h1>
+          <h2 className='subtitle'>Experiencia Laboral</h2>
+          <h1 className='title'>¿QUÉ HE HECHO ANTES?</h1>
         </article>
 
         <article className='Works__body'>
-          <div className='Works__body__item'>
-            <CardItem />
-          </div>
+        {
+          data && data.reverse().map( (item) => {
+            return(
+              <CardItem
+                title={item.rol}
+                institution={item.company}
+                description={item.description}
+                startDate={item.startDate}
+                endDate={item.endDate}
+                url={item.url}
+                location={item.location}
+                key={item.id}
+              />
+            )
+          })
+        }
 
-          <div className='Works__body__item'>
-            <CardItem />
-          </div>
-
-          <div className='Works__body__item'>
-            <CardItem />
-          </div>
-
-          <div className='Works__body__item'>
-            <CardItem />
-          </div>
         </article>
 
         <button className='button'>Ver Más</button>
       </section>
     </Suspense>
+
   )
 }
 
