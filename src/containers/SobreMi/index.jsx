@@ -6,6 +6,7 @@ const Presentation = lazy(() => import ('../../components/Presentation'));
 const Services = lazy(() => import ('../../components/Services'));
 const Works = lazy(() => import('../../components/Works'));
 const Studies = lazy(() => import('../../components/Studies'));
+const Volunteering = lazy(() => import('../../components/Volunteering'));
 
 const SobreMi = () => {
   return (
@@ -15,6 +16,7 @@ const SobreMi = () => {
         <Services />
         <Works />
         <Studies />
+        <Volunteering />
       </main>
     </Suspense>
   )

@@ -163,45 +163,50 @@
       "company": "Semillero de Investigación 418",
       "category": "Ciencia y Tecnología",
       "description": "Integrante del semillero de investigación de la Universidad Icesi 418. Durante mi estancia en el grupo, desarrollamos el proyecto El Mundo de Duino, el cual consistía en la escritura, diseño y programación de un libro físico para niños en donde se les explicaba el mundo de la programación electrónica a través de la historia de un extraterrestre llamado Duino que llegaba a la tierra y empezaba a interacturar con diferentes componentes como luces led de piso, baterías, resistencias, entre otros.",
-      "startDate": 0,
-      "endDate": 0,
-      "url": "https://www.icesi.edu.co/blogs/semillero418/about/"
+      "startDate": "2017-01",
+      "endDate": "2019-12",
+      "url": "https://www.icesi.edu.co/blogs/semillero418/about/",
+      "location": "Cali, Colombia"
     }, {
       "id": 1,
       "rol": "Cofundador - Jefe de Logística",
       "company": "Güinev - Grupo Estudiantil de Diseño de Medios Interactivos",
       "category": "Educación",
       "description": "Fui uno de los fundadores del grupo estudiantil Güinev del programa de Diseño de Medios Interactivos de la Universidad Icesi estando encargado de toda la parte logística del grupo.",
-      "startDate": 0,
-      "endDate": 0,
-      "url": "https://www.instagram.com/guinevdmi"
+      "startDate": "2017-01",
+      "endDate": "2018-06",
+      "url": "https://www.instagram.com/guinevdmi",
+      "location": "Cali, Colombia"
     }, {
       "id": 2,
       "rol": "Fundador",
       "company": "Grupo de Diseño Competitivo HackINN",
       "category": "Ciencia y Tecnología",
       "description": "Fundador e integrante del grupo de Diseño Competitivo de la Universidad Icesi, conformado por estudiantes de todos los semestres de Diseño de Medios Interactivos, Diseño Industrial, Ingeniera en Sistemas e Ingeniería Telematica; con el fin de participar en diferentes competencias como Hackatones.",
-      "startDate": 0,
-      "endDate": 0,
-      "url": ""
+      "startDate": "2020-02",
+      "endDate": "2020-05",
+      "url": "#",
+      "location": "Cali,Colombia"
     }, {
       "id": 3,
       "rol": "Diseñador de Interfaces de Usuario",
       "company": "gentem",
       "category": "Servicios Sociales",
       "description": "Soy parte del equipo de diseño de interfaces de la ONG donde buscamos ayudar a las personas más afectadas por el corona virus en latinoamericana.",
-      "startDate": 0,
-      "endDate": 0,
-      "url": "https://gentem.org/"
+      "startDate": "2020-03",
+      "endDate": "2020-05",
+      "url": "https://gentem.org/",
+      "location": "Colombia"
     }, {
       "id": 4,
       "rol": "Mentor de Comunidad",
       "company": "Platzi",
       "category": "Educación",
       "description": "Apoyo a estudiantes en tecnologías frontend con sus procesos de aprendizaje.",
-      "startDate": 0,
+      "startDate": "2020-03",
       "endDate": "now",
-      "url": "https://platzi.com/"
+      "url": "https://platzi.com/",
+      "location": "Latinoamerica"
     }
   ],
   "certifications": [

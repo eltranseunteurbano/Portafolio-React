@@ -23,6 +23,8 @@
 
     padding: calc(var(--external-padding) / 2) var(--external-padding);
     box-sizing: border-box;
+
+    transition: all.4s;
   }
 
   &__logo {

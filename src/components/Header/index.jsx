@@ -53,7 +53,7 @@ const Header = () => {
 
   return(
     <Suspense fallback={<Loading />}>
-      <header className='header' style={scrollY >= 90 ? {boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)'} : {}}>
+      <header className='header' style={scrollY >= 150 ? {boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)', height:'50px'} : {}}>
       <section className='header__wp'>
         <Link to={routes.INDEX} className='header__logo'><Logo active = {showResponsive} /></Link>
 

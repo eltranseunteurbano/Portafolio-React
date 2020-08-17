@@ -9,7 +9,16 @@ const CardItem = lazy(() => import('../CardItem'));
 const Studies = () => {
 
   const data = React.useContext(StudiesContext);
+  const [itemsToShow, setItemsToShow] = React.useState(4);
 
+  const onChangeItemsToShow = () => {
+    let itemsTemp = itemsToShow + 4;
+    if(itemsTemp >= data.length){
+      setItemsToShow(data.length)
+    } else {
+      setItemsToShow(itemsTemp)
+    }
+  }
 
   return(
     <Suspense fallback={<Loading />}>
@@ -38,9 +47,16 @@ const Studies = () => {
           }
         </article>
 
-        {data && data.length > 4 &&
-          <button className='button'>Ver Más</button>
+        {
+          data && data.length > 4 ?
+            itemsToShow >= data.length ?
+            <button className='button' onClick={() => setItemsToShow(4)}>Ocultar</button>
+            :
+            <button className='button' onClick={onChangeItemsToShow}>Ver Más</button>
+          :
+          ''
         }
+
       </section>
     </Suspense>
   )

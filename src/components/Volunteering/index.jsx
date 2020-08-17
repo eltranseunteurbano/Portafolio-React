@@ -2,13 +2,13 @@ import React, { lazy, Suspense} from 'react';
 import './index.scss';
 import Loading from '../Loading';
 
-import JobsContext from '../../utils/context/JobsContext';
+import VolunteeringContext from '../../utils/context/VolunteeringContext';
 
 const CardItem = lazy(() => import('../CardItem'));
 
-const Works = () => {
+const Volunteering = () => {
 
-  const data = React.useContext(JobsContext);
+  const data = React.useContext(VolunteeringContext);
   const [itemsToShow, setItemsToShow] = React.useState(4);
 
   const onChangeItemsToShow = () => {
@@ -22,15 +22,15 @@ const Works = () => {
 
   return(
     <Suspense fallback={<Loading />}>
-      <section className='Works'>
-        <article className='Works__header'>
-          <h2 className='subtitle'>Experiencia Laboral</h2>
-          <h1 className='title'>¿QUÉ HE HECHO ANTES?</h1>
+      <section className='Volunteering'>
+        <article className='Volunteering__header'>
+          <h2 className='subtitle'>Voluntariado</h2>
+          <h1 className='title'>¿CÓMO HE AYUDADO A LA COMUNIDAD?</h1>
         </article>
 
-        <article className='Works__body'>
+        <article className='Volunteering__body'>
         {
-          data && data.slice(0, itemsToShow).map( (item) => {
+          data && data.reverse().slice(0, itemsToShow).map( (item) => {
             return(
               <CardItem
                 title={item.rol}
@@ -63,4 +63,4 @@ const Works = () => {
   )
 }
 
-export default Works;
+export default Volunteering;

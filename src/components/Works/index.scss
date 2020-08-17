@@ -17,12 +17,6 @@
   &__body {
     display: grid;
     margin-bottom: calc(var(--general-space) * 2);
-
-    &__item:last-child {
-      .CardItem {
-        border-bottom: none;
-      }
-    }
   }
 }
 
