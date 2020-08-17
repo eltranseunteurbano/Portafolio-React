@@ -27,15 +27,13 @@ function App() {
 
   React.useEffect(() => {
     const fetchData = async () => {
-      const jobs = await axios('http://localhost:3004/jobs');
-      const study = await axios('http://localhost:3004/study');
-      const volunteering = await axios('http://localhost:3004/volunteering');
-      const certifications = await axios('http://localhost:3004/certifications');
+      let data = await axios('/data.json');
+      data = data.data;
 
-      const dataTemp = { jobs: jobs.data.reverse(), study: study.data.reverse(), volunteering: volunteering.data.reverse(), certifications: certifications.data.reverse() }
+      const dataTemp = { jobs: data.jobs.reverse(), study: data.study.reverse(), volunteering: data.volunteering.reverse(), certifications: data.certifications.reverse() }
       setData(dataTemp)
     }
-    fetchData();
+    fetchData()
   }, [])
 
 

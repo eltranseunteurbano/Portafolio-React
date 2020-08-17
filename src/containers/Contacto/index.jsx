@@ -30,7 +30,7 @@ const Contacto = () => {
               <Iconos />
 
             <p className='Contacto__body__content__text'>Si quieres podemos reunirnos, agendemos un reunión, te dejó mi disponibilidad</p>
-            <a href='https://www.calendly.com/eltranseunteurbano' target='_blank' rel='noopener noreferrer' className='button'>Agengar Reunión</a>
+            <a href='https://www.calendly.com/eltranseunteurbano' target='_blank' rel='noopener noreferrer' className='button'>Agendar Reunión</a>
           </div>
         </article>
       
