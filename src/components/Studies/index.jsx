@@ -30,7 +30,7 @@ const Studies = () => {
 
         <article className='Studies__body'>
           {
-            data && data.reverse().map( (item) => {
+            data && data.map( (item) => {
               return(
                 <CardItem
                   title={item.carreer}

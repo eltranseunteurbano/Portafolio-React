@@ -30,7 +30,7 @@ const Volunteering = () => {
 
         <article className='Volunteering__body'>
         {
-          data && data.reverse().slice(0, itemsToShow).map( (item) => {
+          data && data.slice(0, itemsToShow).map( (item) => {
             return(
               <CardItem
                 title={item.rol}
