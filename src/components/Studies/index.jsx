@@ -24,15 +24,23 @@ const Studies = () => {
             data && data.reverse().map( (item) => {
               return(
                 <CardItem
-                  title={item.rol}
+                  title={item.carreer}
+                  institution={item.institution}
+                  url={item.url}
                   key={item.id}
+                  startDate={item.startDate}
+                  endDate={item.endDate}
+                  location={item.location}
+                  type='study'
                 />
               )
             })
           }
         </article>
 
-        <button className='button'>Ver Más</button>
+        {data && data.length > 4 &&
+          <button className='button'>Ver Más</button>
+        }
       </section>
     </Suspense>
   )

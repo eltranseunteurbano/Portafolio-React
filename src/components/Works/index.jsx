@@ -38,7 +38,9 @@ const Works = () => {
 
         </article>
 
-        <button className='button'>Ver Más</button>
+        {data && data.length > 2 &&
+          <button className='button'>Ver Más</button>
+        }
       </section>
     </Suspense>
 

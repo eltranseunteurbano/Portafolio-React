@@ -3,11 +3,11 @@ import './index.scss';
 
 const MONTHS = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
-const CardItem = ({ title, institution , startDate = '', endDate = '', time, description, url, location }) => {
+const CardItem = ({ title, institution , startDate = '', endDate = '', description, url, location, type }) => {
 
   const [finishDate, setFinishDate] = React.useState(endDate);
   const [initialDate, setInitialDate] = React.useState(startDate);
-  const [currentTime, setCurrentTime] = React.useState(time)
+  const [currentTime, setCurrentTime] = React.useState(0)
   const [currentTimeYear, setCurrentTimeYear] = React.useState(0)
 
   //Transformar la fecha final si actualmente lo curso
@@ -50,13 +50,19 @@ const CardItem = ({ title, institution , startDate = '', endDate = '', time, des
       <a href={url} target='_blank' rel='noopener noreferrer' className='CardItem__subtitle'>{institution}</a>
       <p className='CardItem__city'>{location}</p>
       <p className='CardItem__date'>
-        {
-          `
-          ${MONTHS[initialDate[0]]} ${initialDate[1]} - ${MONTHS[finishDate[0]]} ${finishDate[1]} |
+        <span>{`
+          ${MONTHS[initialDate[0]]} ${initialDate[1]} - ${MONTHS[finishDate[0]]} ${finishDate[1]}
+          `}
+        </span>
+        {type === 'study' ? '' :
+        <span>
+        {`| 
           ${currentTimeYear > 0 ? currentTimeYear : ''} ${currentTimeYear > 0 ? currentTimeYear > 1 ? 'años  y' : 'año  y' : ''}
           ${currentTime > 12 ? currentTime - 12 : currentTime} ${currentTime > 1 ? 'meses' : 'mes' }
-          `
-        }</p>
+          `}
+        </span>
+      }
+      </p>
       <p className='CardItem__description'>{description}</p>
     </div>
   )
